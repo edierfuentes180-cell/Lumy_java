@@ -1,0 +1,25 @@
+/* Mensajes */
+.exito,
+.error {
+  margin: 0 0 14px;
+  padding: 11px 14px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.exito {
+  color: #1e7a46;
+  background: #e8f5e9;
+  border: 1px solid #a5d6a7;
+}
+
+.error {
+  color: #b3261e;
+  background: #fdeaea;
+  border: 1px solid #f0b4b0;
+}
+
+/* Para que el atributo hidden realmente oculte el mensaje de error */
+.error[hidden] { display: none; }
